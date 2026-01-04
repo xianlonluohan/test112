@@ -8,6 +8,7 @@
 #include <driver/i2c_master.h>
 #include <esp_codec_dev.h>
 #include <esp_codec_dev_defaults.h>
+#include <cstring>
 
 class AIVoxAudioCodec : public AudioCodec {
   private:
