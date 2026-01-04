@@ -35,7 +35,7 @@ list(APPEND INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/boards/common)
 
 # 根据 BOARD_TYPE 配置添加对应的板级文件
 if(CONFIG_BOARD_TYPE_NULLLAB_AI_VOX3)
-    set(BOARD_TYPE "nulllab-AI-VOX3")
+    set(BOARD_TYPE "nulllab-ai-vox3")
 elseif(CONFIG_BOARD_TYPE_NULLLAB_AI_Vox)
     set(BOARD_TYPE "nulllab-ai-vox")
 elseif(CONFIG_BOARD_TYPE_NULLLAB_AI_Vox_Emoji)
