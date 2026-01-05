@@ -62,4 +62,4 @@
 #define DEVICE_UART_RX_PIN GPIO_NUM_2
 #define DEVICE_UART_BAUD_RATE 115200
 
-#endif // _BOARD_CONFIG_H_
+#endif  // _BOARD_CONFIG_H_
